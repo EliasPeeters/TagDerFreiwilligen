@@ -1,0 +1,287 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+#myVideo {
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 700px;
+    position: fixed;
+    z-index: -1;
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+    object-fit: cover;
+}
+
+#container {
+    height: 700px;
+}
+
+p {
+    z-index: 10;
+    margin: 40px;
+    line-height: 30px;
+}
+
+h2 {
+    margin: 40px;
+}
+
+
+#Navigation {
+    position: fixed;
+    height: 70px;
+
+    width: 100%;
+    z-index: 10;
+    transition: 800ms;
+    margin-top: -10px;
+}
+
+#Navigation h1 {
+    margin: 0px;
+    margin-left: 20px;
+}
+
+
+.ulNavigation {
+    list-style-type: none;
+    padding-left: 170px;
+}
+
+
+.NavigationItem {
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.NavigationItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    transition: 700ms;
+}
+
+.NavigationItem a:hover {
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.active {
+    text-decoration: underline;
+}
+
+
+#Titel {
+    padding-top: 15px;
+    margin-left: 20px;
+    float: left;
+    color: white;
+    font-weight: 100;
+
+}
+
+#TitleOnVideo {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    display: block;
+
+}
+
+#TitleOnVideoDiv {
+    position: fixed;
+    margin: 0 auto;
+    padding-top: 30vh;
+    z-index: -1;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#content {
+    background-color: white;
+
+}
+
+.Wahlziel {
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: white;
+}
+
+
+.bgimg-1 {
+    height: 40vh;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("workplace-1245776.jpg");
+
+}
+
+
+.bgimg-2 {
+     height: 40vh;
+     position: relative;
+
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url("reinraus.jpg");
+
+ }
+
+.bgimg-3 {
+    height: 40vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("email.png");
+
+}
+
+.bgimg-4 {
+    height: 40vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("team.jpg");
+
+}
+
+.bgimg-5 {
+    height: 40vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("wahl.jpg");
+
+}
+
+.bgimg-6 {
+    height: 40vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("projektwoche.jpg");
+
+}
+
+.bgimg-0 {
+    height: 80vh;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("ezgif-1-f78841e3f7.gif");
+
+}
+
+#Video {
+    height: 40vh;
+
+}
+
+.TitleOnImage {
+    margin: 0 auto;
+    color: black;
+
+}
+
+h3 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 35vh;
+    color: white;
+    font-weight: 700;
+}
+
+.balkendiagramm {
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: aqua;
+    border-bottom: 2px solid lightgrey;
+}
+
+.balken {
+    width: 10px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
