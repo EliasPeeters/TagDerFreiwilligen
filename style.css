@@ -11,7 +11,7 @@ body {
     right: 0;
     top: 0;
     width: 100%;
-    height: 700px;
+    height: 500px;
     position: fixed;
     z-index: -1;
     -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
@@ -19,8 +19,24 @@ body {
     object-fit: cover;
 }
 
+#filler {
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    position: fixed;
+    z-index: -1;
+    object-fit: cover;
+    background-color: lightgrey;
+}
+
+
 #container {
-    height: 700px;
+    height: 500px;
+}
+
+#container2 {
+    height: 300px;
 }
 
 p {
@@ -104,7 +120,16 @@ h2 {
 #TitleOnVideoDiv {
     position: fixed;
     margin: 0 auto;
-    padding-top: 30vh;
+    padding-top: 25vh;
+    z-index: -1;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#TitleOnVideoDiv2 {
+    position: fixed;
+    margin: 0 auto;
+    padding-top: 10vh;
     z-index: -1;
     width: 50%;
     margin-left: 25%;
@@ -143,7 +168,7 @@ h2 {
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     background-image: url("reinraus.jpg");
+     background-image: url("workplace-1245776.jpg");
 
  }
 
@@ -154,7 +179,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("email.png");
+    background-image: url("workplace-1245776.png");
 
 }
 
@@ -165,7 +190,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("team.jpg");
+    background-image: url("workplace-1245776.jpg");
 
 }
 
@@ -176,7 +201,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("wahl.jpg");
+    background-image: url("workplace-1245776.jpg");
 
 }
 
@@ -187,7 +212,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("projektwoche.jpg");
+    background-image: url("workplace-1245776.jpg");
 
 }
 
@@ -226,62 +251,32 @@ h3 {
     height: 200px;
     width: 80%;
     margin-left: 10%;
-    background-color: aqua;
+    background-color: white;
     border-bottom: 2px solid lightgrey;
+    position: relative;
 }
 
 .balken {
-    width: 10px;
+    width: 40px;
     height: 100px;
     background-color: aquamarine;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    font-size: 15px;
+
+
+}
+.balken p {
+    padding-top: 10px;
+}
+.beschriftung {
+    position: absolute;
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.graph {
+    width: 80%;
+    margin-left: 10%;
+}
